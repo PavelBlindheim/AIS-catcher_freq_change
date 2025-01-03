@@ -226,7 +226,7 @@ void Receiver::setupDevice()
 	if (ChannelMode == AIS::Mode::AB)
 		device->setFrequency((int)(162000000));
 	else
-		device->setFrequency((int)(156800000));
+		device->setFrequency((int)(433500000));
 
 	if (sample_rate)
 		device->setSampleRate(sample_rate);
